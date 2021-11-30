@@ -1,3 +1,6 @@
-# Created a budget calculator
+# Created a budgeting application.
 
-![Alt Text](https://gfycat.com/tangibleharmfulaustraliankestrel)
+### The JavaScript for the application was created by following tutorial of freecodecamp.org
+### Video link: https://www.youtube.com/watch?v=m_HJ3juuFvo
+
+![Budget Application Gif](https://gfycat.com/tangibleharmfulaustraliankestrel.gif)
