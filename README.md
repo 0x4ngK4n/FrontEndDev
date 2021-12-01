@@ -7,4 +7,5 @@
 ### **Note**: This repo will be updated as I set sizeable goals and develop corresponding applications.
 
 **Current Task list**
-- [ ] Project 1: Build a budget calculator using HTML, CSS and JS
+- [X] Project 1: Build a budget calculator using HTML, CSS and JS.
+- [ ] Project 2: Build a cart of required household items, for every month.
