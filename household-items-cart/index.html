@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- bootstrap css -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <!-- main css -->
+ <link rel="stylesheet" href="css/main.css">
+ <!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+ <!-- font awesome -->
+ <link rel="stylesheet" href="css/all.css">
+ <title>budget app</title>
+ <style>
+ </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-11 mx-auto pt-3">
+                <!-- application title -->
+                <h3 class="text-uppercase mb-4">mashkabari app</h3>
+                <div class="row">
+                    <div class="col-md-5 my-3">
+                    <!-- item feedback -->
+                    <div class="item-feedback alert alert-danger text-capitalize">item feedback</div>
+                    <!-- budget form -->
+                    <form id="item-form" class="item-form">
+                        <div class="form-row" id="row_0">
+                          <div class="col-xs-1">
+                            <input class="form-control item-input" type="checkbox" checked="checked" value="" id="item-status">
+                          </div>
+                          <div class="col-sm">
+                            <input type="text" class="form-control item-input" id="item-name" placeholder="Item name">
+                          </div>
+                          <div class="col-sm">
+                            <input type="text" class="form-control item-input" id="item-weight" placeholder="Item weight">
+                          </div class="col-sm">
+                          <select class="form-select item-input" id="item-quantity" size="1">
+                            <option selected>Item quantity</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                        </select>
+                        <button type="click" class="btn text-capitalize add-good" id="add-good-submit">+</button>
+                        <button type="click" class="btn text-capitalize remove-good" id="remove-good-submit">-</button>
+                        </div>
+                      </form>
+                      <br>
+                      <button type="submit" class="btn text-uppercase final-submit mb-4" id="item-submit">Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- jquery -->
+ <script src="js/jquery-3.3.1.min.js"></script>
+ <!-- bootstrap js -->
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <!-- script js -->
+ <script src="js/app.js"></script>
+</body>
+
+</html>
